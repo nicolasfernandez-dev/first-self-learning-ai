@@ -77,9 +77,3 @@ No se suben al repositorio: `.env` (secretos), `venv/` (se regenera), `qdrant_da
 
 - El plan gratuito de Gemini tiene un límite diario de peticiones, y cada turno de chat consume varias (respuesta + extracción de recuerdos).
 - El historial de la sesión se limita a los últimos 20 mensajes.
-
-## Próximos pasos
-
-- [ ] Mover la configuración compartida a un `config.py`
-- [ ] Guardar recuerdos solo bajo demanda para gastar menos cuota
-- [ ] Añadir herramientas con function calling
