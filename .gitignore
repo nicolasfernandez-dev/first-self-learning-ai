@@ -1,0 +1,17 @@
+# Secretos
+.env
+
+# Entorno virtual de Python
+venv/
+
+# Datos locales
+qdrant_data/
+.mem0/
+
+# Archivos generados por Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Archivos del sistema macOS
+.DS_Store
